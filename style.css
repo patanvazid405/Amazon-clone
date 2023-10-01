@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border:border-box;
+    
+}
+.navbar{
+      display:flex;
+      height: 60px;
+      background-color: #232f3e;
+      color: white;
+      align-items: center;
+   
+}
+.nav-logo {
+    height:50px;
+    width:100px;
+}
+
+.logo{
+      background-image: url("amazon_logo.png");
+      background-size: cover;
+      height:50px;
+      width:100px;
+}
+.border 
+{
+    border: 2px solid transparent;
+}
+
+.border:hover {
+     border:1px solid white; 
+     color: green;   
+}
+.add-icon{
+    display:flex;
+}
+.nav-addr{
+    height: 50px;
+    width: 100px;
+    position: center;
+}
+#add1{
+    margin-left: 15px;
+}
+.input{
+    padding-left: 70px;
+    width: 100px;
+}
+.search{
+    padding-left: 90px;
+    
+}
+.search:hover{
+    border:1px solid white;
+}
+.add-icon:hover{
+    border: 1px solid transparent;
+}
+.icon{
+    padding-left:96px;
+}
+.icon:hover{
+    border: 1px white solid transparent;
+}
+.lang{
+    padding-left: 50px;
+}
+.lang:hover{
+    border:1px white solid transparent solid;
+    border-color: aliceblue;
+}
+.cart{
+    padding-left: 50px
+}
+.order{
+    padding-left: 50px;
+}
+.order:hover{
+    border: 1px greenyellow transparent solid;
+}
+body{
+    background-image:url(hero_image.jpg);
+    background-size:cover;
+}
+.box1{
+    height: 300px;
+    width: 400px;
+    background-color: aliceblue;
+    padding-left: 100px;
+    text-align: center;
+    text-transform: capitalize;
+    position: flex;
+
+}
+
+#img1{
+    height:100px;
+    width: 200px;
+    background-image: url(box1_image.jpg);
+     
+     padding-left: 50px;
+}
+#img2{
+    height: 100px;
+    width: 250px;
+    background-image: url(box2_image.jpg);
+    padding-left: 0px
+    
+}
+.hero{
+    height:fit-content;
+    width:auto;
+    background-image: url(hero_image.jpg);
+}
+.foot{
+     height:auto;
+     width:auto;
+     background-color: #232f3e;
+     color: aliceblue;
+     position:static;
+     transition: all;
+     transform: rotate(.logo);
+}
